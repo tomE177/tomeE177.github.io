@@ -1,0 +1,52 @@
+body{
+    background-color: green;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+
+h2{
+    color: orange;
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    font-family:"Times New Roman";
+    font-size: 20px;
+    color: purple;
+    text-align: center;
+}
+
+.linkAlign{
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:red;
+}
+
+a:hover{
+    color:hotpink;
+}
+
+a:active{
+    color:brown;
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
