@@ -1,52 +1,87 @@
 body{
-    background-color: green;
+    background-image: url(imgs/happy.png);
 }
-h1{
-    color: red;
+
+.fling-minislide {width:700px; height:600px; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 35s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes fling-minislide {10%{opacity:1;} 30%{opacity:0;}} 
+.fling-minislide img:nth-child(1){animation-delay:0s;}
+.fling-minislide img:nth-child(2){animation-delay:5s;}
+.fling-minislide img:nth-child(3){animation-delay:10s;}
+.fling-minislide img:nth-child(4){animation-delay:15s;}
+.fling-minislide img:nth-child(5){animation-delay:20s;}
+.fling-minislide img:nth-child(6){animation-delay:25s;}
+.fling-minislide img:nth-child(7){animation-delay:30s;}
+/* The navigation bar */
+
+.logo{
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
 }
-
-h2{
-    color: orange;
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    margin-left: -1%;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 101%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a:not(.logo) {
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
-    font-style: italic;
-}
+    font-size: x-large;
+    padding: 50px 380px;
+    text-decoration: none;
+   
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 10%; /* Add a top margin to avoid content overlay */
+    padding-left: 150px;
+  }
 
-p{
-    font-family:"Times New Roman";
-    font-size: 20px;
-    color: purple;
-    text-align: center;
-}
+  table{
+    margin-top: 10%;
+  }
+  
 
-.linkAlign{
-    text-align: center;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:80%;
-}
+  .cell1{
+    padding-left: 10%;
+    padding-bottom: 50%;
+  }
 
-a:link{
-    color:blue;
-}
+  .cell2{
+    padding-right: 0%;
+    padding-bottom: 46%;
+  }
 
-a:visited{
-    color:red;
-}
 
-a:hover{
-    color:hotpink;
-}
+  .tableuptxt{
+    padding-bottom: 15%;
+  }
 
-a:active{
-    color:brown;
-}
+  .updateTxt{
+    text-decoration: underline;
+    font-size: large;
+  }
 
-.center{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:50%;
-}
+  /*table, th, td {
+    border: 1px solid black;
+  }
 
