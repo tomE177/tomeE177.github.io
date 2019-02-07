@@ -81,6 +81,13 @@ body{
     font-size: large;
   }
 
+  a{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+
   /*table, th, td {
     border: 1px solid black;
   }
