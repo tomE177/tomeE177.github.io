@@ -16,3 +16,35 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+body{
+    background-image: url(imgs/happy.png);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    margin-left: -1%;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 101%; /* Full width */
+}
+  
+  /* Links inside the navbar */
+.navbar a:not(.logo) {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: x-large;
+    padding: 50px 380px;
+    text-decoration: none;
+   
+}
+  
+  /* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+  
