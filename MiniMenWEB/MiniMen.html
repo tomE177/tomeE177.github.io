@@ -5,19 +5,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | MiniMen</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="style-game.css">
+    <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "MiniMenWEB/Build/MiniMenWEB.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/MiniMenWEB.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
-    <div class="navbar">
-      <a class = "logo"href="index.html"><img src = "imgs/unlimplay.png" style="width:80px;height:80;"> </a>
-      <a class="titlelink" href="index.html">Home</a>
-      <a href="#contact">AboutMe</a>
-    </div>
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
@@ -27,4 +22,3 @@
       </div>
     </div>
   </body>
-</html>
