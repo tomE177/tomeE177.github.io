@@ -25,3 +25,21 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 101%; /* Full width */
 }
+
+/* Links inside the navbar */
+.navbar a:not(.logo) {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: x-large;
+  padding: 50px 380px;
+  text-decoration: none;
+ 
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
