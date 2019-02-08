@@ -1,0 +1,13 @@
+{
+"companyName": "TomEllis",
+"productName": "MiniMen",
+"dataUrl": "MiniMenWEB.data.unityweb",
+"asmCodeUrl": "MiniMenWEB.asm.code.unityweb",
+"asmMemoryUrl": "MiniMenWEB.asm.memory.unityweb",
+"asmFrameworkUrl": "MiniMenWEB.asm.framework.unityweb",
+"TOTAL_MEMORY": 570425344,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
