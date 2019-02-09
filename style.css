@@ -1,5 +1,13 @@
 body{
     background-image: url(imgs/happy.png);
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fling-minislide {width:700px; height:600px; overflow:hidden; position:relative; }
@@ -91,6 +99,20 @@ body{
   .game{
     
     margin-left:25%;
+  }
+
+  .updatecell{
+    padding-left: 0%;
+  }
+
+  .text{
+    text-align: center;
+  }
+  textarea{
+    background: transparent;
+    border: 0 none;
+    font-size: large;
+
   }
 
   /*table, th, td {
