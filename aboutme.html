@@ -1,19 +1,35 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
     <head>
         <title>HTML Tutorial</title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     </head>
     <body>
         
-        <div class="navbar">
+        <div class="topnav" id="myTopnav">
             <a class = "logo"href="index.html"><img src = "imgs/unlimplay.png" style="width:80px;height:80;"> </a>
             <a class="titlelink" href="index.html">Home</a>
             <a href="Update.html">Updates</a>
             <a href="aboutme.html">AboutMe</a>
-            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars" style="font-size:36px"></i>
+            </a>
         </div>
-
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
         <table style="width:90%" style="height: 10px">
             <tr>
               <td class="updatecell">
@@ -21,7 +37,7 @@
                     <svg width="1500" height="870" class ="rectangle">
                         <rect x="80" y="0" rx="20" ry="20" width="1400" height="800"
                         style="fill:white;stroke-width:5;opacity:0.3" />
-                        <text class="title" x="720" y="100" fill="black">About Me </text>
+                        <text class="title" x="720" y="50" fill="black">About Me </text>
                         <foreignobject id = "x" x = "240" y = "150" width = "300" height = "100">
                             <textarea name="aboutme" id="about" cols="120" rows="100">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper pretium tristique. Nunc quis odio orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae consectetur mi. In bibendum dapibus ligula, sed pharetra eros gravida quis. In varius nisi quis lorem laoreet vestibulum. Fusce ultrices aliquam orci et lobortis. Praesent faucibus dictum venenatis. In sed tellus vehicula, sollicitudin nisl et, euismod lacus. Fusce luctus vulputate massa, id convallis augue. Praesent mattis pulvinar ex id malesuada. Fusce non sapien finibus, posuere est id, convallis sapien. Vivamus blandit porta sagittis. Pellentesque porttitor ligula non ipsum pellentesque mollis. Phasellus nunc metus, tincidunt a cursus sit amet, dignissim eget lectus.

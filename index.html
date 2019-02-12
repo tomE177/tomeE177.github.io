@@ -5,18 +5,31 @@
         <title>HTML Tutorial</title>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
     <body>
         
-        <div class="navbar">
+        <div class="topnav" id="myTopnav">
             <a class = "logo"href="index.html"><img src = "imgs/unlimplay.png" style="width:80px;height:80;"> </a>
             <a class="titlelink" href="index.html">Home</a>
             <a href="Update.html">Updates</a>
             <a href="aboutme.html">AboutMe</a>
-            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars" style="font-size:36px"></i>
+            </a>
         </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
 
-        <table style="width:90%" style="margin-bottom: 50%">
+        <table style="width:90%">
             <tr>
               <td class="cell1">
                 <div class="main">
