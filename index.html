@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+        
+    <head>
+        <title>HTML Tutorial</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <div class="topnav" id="myTopnav">
+            <a class = "logo"href="index.html"><img src = "imgs/unlimplay.png" style="width:80px;height:80;"> </a>
+            <a class="titlelink" href="index.html">Home</a>
+            <a href="Update.html">Updates</a>
+            <a href="aboutme.html">AboutMe</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars" style="font-size:36px"></i>
+            </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <table style="width:90%">
+            <tr>
+              <td class="cell1">
+                <div class="main">
+                    <h1><a href="MiniMen.html">MINIMEN</a></h1>
+                    <div class="fling-minislide">
+                        <img src="imgs/MINIMEN1.png" alt="Slide 1" />
+                        <img src="imgs/Capturem1.png" alt="Slide 2" />
+                        <img src="imgs/Capturem2.png" alt="Slide 3" /> 
+                        <img src="imgs/Capturem3.png" alt="Slide 4" />
+                        <img src="imgs/Capture4.png" alt="Slide 5" />
+                        <img src="imgs/Capture5.png" alt="Slide 6" />
+                        <img src="imgs/Capture7.png" alt="Slide 7" />
+                    </div>
+                </div>
+              </td>
+              <td class="cell2">
+                    <svg width="500" height="570">
+                        <rect x="0" y="20" rx="20" ry="20" width="450" height="350"
+                        style="fill:white;stroke-width:5;opacity:0.3" />
+                        <text class="updateTxt" x="70" y="50" fill="black">MINI MEN UPDATE #1 </text>
+                        <text  x="70" y="100" fill="black">update update update update  </text>
+                        <text  x="70" y="125" fill="black">update update update update  </text>
+                        <text  x="70" y="150" fill="black">update update update update  </text>
+                        <text  x="70" y="175" fill="black">update update update update  </text>
+                        <text  x="70" y="200" fill="black">update update update update  </text>
+                        <text  x="70" y="225" fill="black">update update update update  </text>
+                        <a xlink:href="Update.html">
+                            <text class="updateTxt" x="100" y="300" >Read More --> </text>
+                        </a>
+                        <image x="230" y="50"  
+                            xlink:href="imgs/BS.png"
+                            transform="scale(1.5,1.5)"
+                        />
+                    </svg>
+                    
+                </td> 
+              
+            </tr>
+        </table>
+
+    </body>
+</html>

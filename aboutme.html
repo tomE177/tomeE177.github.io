@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HTML Tutorial</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    </head>
+    <body>
+        
+        <div class="topnav" id="myTopnav">
+            <a class = "logo"href="index.html"><img src = "imgs/unlimplay.png" style="width:80px;height:80;"> </a>
+            <a class="titlelink" href="index.html">Home</a>
+            <a href="Update.html">Updates</a>
+            <a href="aboutme.html">AboutMe</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars" style="font-size:36px"></i>
+            </a>
+        </div>
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <table style="width:90%" style="height: 10px">
+            <tr>
+              <td class="updatecell">
+                <div class="main">
+                    <svg width="1500" height="870" class ="rectangle">
+                        <rect x="80" y="0" rx="20" ry="20" width="1400" height="800"
+                        style="fill:white;stroke-width:5;opacity:0.3" />
+                        <text class="title" x="720" y="50" fill="black">About Me </text>
+                        <foreignobject id = "x" x = "240" y = "150" width = "300" height = "100">
+                            <textarea name="aboutme" id="about" cols="120" rows="100">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper pretium tristique. Nunc quis odio orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae consectetur mi. In bibendum dapibus ligula, sed pharetra eros gravida quis. In varius nisi quis lorem laoreet vestibulum. Fusce ultrices aliquam orci et lobortis. Praesent faucibus dictum venenatis. In sed tellus vehicula, sollicitudin nisl et, euismod lacus. Fusce luctus vulputate massa, id convallis augue. Praesent mattis pulvinar ex id malesuada. Fusce non sapien finibus, posuere est id, convallis sapien. Vivamus blandit porta sagittis. Pellentesque porttitor ligula non ipsum pellentesque mollis. Phasellus nunc metus, tincidunt a cursus sit amet, dignissim eget lectus.
+                                Mauris ac scelerisque ante. Etiam egestas maximus neque, eget porttitor dui mollis nec. Nulla pretium pretium justo, at laoreet orci. Duis ac lectus vitae nulla eleifend suscipit. In at blandit nunc, sit amet egestas ipsum. Sed augue sapien, sodales et massa vitae, aliquet sollicitudin purus. Vestibulum tempor rhoncus tincidunt. Donec nec eleifend tortor. Cras cursus maximus auctor. Phasellus ante augue, cursus eget eros quis, faucibus interdum mi. Ut ac tellus porttitor, ornare ipsum vitae, fringilla metus. Fusce a tortor nec nisl iaculis commodo. In tristique est eget pharetra dictum.
+                                Mauris purus ante, tempus cursus ex non, condimentum finibus justo. Curabitur a volutpat lacus. Sed id magna nec lectus egestas consectetur a eu leo. Proin et urna tempus, dictum erat ac, accumsan dui. Nam in sagittis lacus. Integer porttitor sed purus vel fermentum. Nunc vel eros ultrices, fringilla felis non, dictum nisi. Aliquam at venenatis erat. Cras est nunc, hendrerit at volutpat at, ultrices sodales metus. Praesent nisl urna, viverra sed sem at, blandit tincidunt ipsum.
+                                Curabitur finibus, lectus sit amet tincidunt malesuada, libero velit pharetra ante, quis faucibus tellus purus vel sapien. Suspendisse ac libero pellentesque, dapibus nulla eu, dictum tellus. Nam quis nibh ac magna efficitur egestas tincidunt ut metus. Cras nulla elit, eleifend at mauris vel, porttitor fringilla dolor. Pellentesque venenatis, nisl ut pharetra venenatis, enim mi vehicula sapien, quis convallis lacus neque quis sapien. Aliquam luctus et enim et convallis. Maecenas id felis ac odio sollicitudin viverra ac vel quam. Sed ut gravida ante. Integer luctus porttitor tellus non feugiat. Sed eu dictum urna, vel sagittis nisi. Curabitur euismod tortor vitae blandit feugiat. Donec a porta est. Sed convallis, tellus id eleifend placerat, risus sapien facilisis ante, et consequat augue leo pharetra arcu.
+                                Vestibulum quis arcu pellentesque, facilisis dui eget, porta neque. Aliquam quam ex, congue quis pharetra ut, dapibus hendrerit nisl. Sed malesuada tellus ac nisi interdum, vitae maximus nisl scelerisque. Donec eget magna ut massa suscipit malesuada sed porttitor ex. Duis tincidunt elit non tortor elementum, vel dapibus mauris mollis. Integer placerat massa in est aliquet viverra et a augue. Duis elit orci, gravida vitae arcu venenatis, venenatis malesuada nunc. Nulla ac pulvinar mi. Nullam tincidunt vitae ligula vel condimentum. Sed in tempor velit. Nullam interdum pulvinar quam, ut gravida diam faucibus ut. Praesent quis ex odio. Suspendisse eu semper dui, id feugiat purus. Integer rhoncus, lacus non gravida facilisis, lectus odio venenatis sapien, sit amet tempus sem nisl quis sem. Ut consectetur dignissim tellus, eget tristique est gravida vitae.
+                            </textarea>
+                        </foreignobject> 
+                     
+                    </svg> 
+                </div>
+              </td>
+            </tr>
+        </table>
+
+    </body>
+</html>

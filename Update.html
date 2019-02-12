@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Tutorial</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    </head>
+    <body>
+        
+        <div class="topnav" id="myTopnav">
+            <a class = "logo"href="index.html"><img src = "imgs/unlimplay.png" style="width:80px;height:80;"> </a>
+            <a class="titlelink" href="index.html">Home</a>
+            <a href="Update.html">Updates</a>
+            <a href="aboutme.html">AboutMe</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars" style="font-size:36px"></i>
+            </a>
+        </div>
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                     x.className = "topnav";
+                }
+            }
+        </script>
+
+        <table style="width:90%">
+            <tr>
+              <td class="updatecell">
+                <div class="main">
+                    <svg width="1500" height="570" class ="rectangle">
+                        <rect x="80" y="0" rx="20" ry="20" width="1400" height="350"
+                        style="fill:white;stroke-width:5;opacity:0.3" />
+                        <text class="title" x="650" y="50" fill="black">MINI MEN UPDATE #1 </text>
+                        <text  class="text" x="220" y="100" fill="black">update update update update update update update update update update update update update update update update update update update update update update update update  </text>
+                        <text  class="text" x="220" y="125" fill="black">update update update update update update update update update update update update update update update update update update update update update update update update </text>
+                        <text  class="text" x="220" y="150" fill="black">update update update update update update update update update update update update update update update update update update update update update update update update</text>
+                        <text  class="text" x="220" y="175" fill="black">update update update update update update update update update update update update update update update update update update update update update update update update</text>
+                        <text  class="text" x="220" y="200" fill="black">update update update update update update update update update update update update update update update update update update update update update update update update</text>
+                        <text  class="text" x="220" y="225" fill="black">update update update update update update update update update update update update update update update update update update update update update update update update</text>
+                    </svg>
+                    
+                </div>
+              </td>
+            </tr>
+        </table>
+
+    </body>
+</html>

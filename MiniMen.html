@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Tutorial</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Build/UnityLoader.js"></script>
+        <script>
+            var gameInstance = UnityLoader.instantiate("gameContainer", "Build/MiniMenWEB NEW TEMP.json");
+        </script>
+    </head>
+    <body>
+        
+        <div class="topnav" id="myTopnav">
+            <a class = "logo"href="index.html"><img src = "imgs/unlimplay.png" style="width:80px;height:80;"> </a>
+            <a class="titlelink" href="index.html">Home</a>
+            <a href="Update.html">Updates</a>
+            <a href="aboutme.html">AboutMe</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars" style="font-size:36px"></i>
+            </a>
+        </div>
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <table class="game" style="width:40%">
+            <tr>
+              <td  >
+                <div >
+                    <div id="gameContainer" style="width: 850px ; height: 650px; margin-left: 25%"></div>
+                </div>
+              </td>
+            </tr>
+        </table>
+        <a class ="downloads"href="https://www.dropbox.com/s/ai9vx08xijedrw3/MiniMen.zip?dl=0" target="_blank">Download MiniMen</a>
+    </body>
+</html>
