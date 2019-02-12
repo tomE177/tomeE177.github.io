@@ -11,7 +11,7 @@ body{
 }
 
 .fling-minislide {width:700px; height:600px; overflow:hidden; position:relative; }
-.fling-minislide img{ position:absolute; animation:fling-minislide 35s infinite; opacity:0; width: 100%; height: auto;}
+.fling-minislide img{ position:absolute; animation:fling-minislide 35s infinite; opacity:0; width: 100%; height: auto; }
 
 @keyframes fling-minislide {10%{opacity:1;} 30%{opacity:0;}} 
 .fling-minislide img:nth-child(1){animation-delay:0s;}
@@ -75,7 +75,6 @@ body{
   table{
     margin-top: 3%;
     border-collapse: collapse;
-    margin-bottom: 50%
   }
   
 
@@ -128,6 +127,8 @@ body{
 
   }
 
+  img { vertical-align: bottom; }
+
   .title{
     font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -161,7 +162,18 @@ body{
     display: none;
   }
 
-  
+  .game2row{
+    margin-bottom:50%;
+  }
+
+  .game1row{
+    height: 100px;
+  }
+
+  td{
+    padding:0px;
+  }
+
   
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
