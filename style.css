@@ -135,6 +135,10 @@ body{
     color: blue;
   }
 
+  .downloads{
+    padding-left:43%;
+  }
+
   /*table, th, td {
     border: 1px solid black;
   }
