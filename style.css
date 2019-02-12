@@ -204,7 +204,7 @@ body{
     width: 20% ;
   }
 
-  .fling-minislide {width:400px; height:300px; overflow:hidden; position:relative; }
+  .fling-minislide {width:350px; height:250px; overflow:hidden; position:relative; }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
