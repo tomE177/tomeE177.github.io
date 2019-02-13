@@ -226,7 +226,7 @@ img{
   }
 
   body{
-    background-size: fill;
+    height: 100vh;
   }
 
   .fling-minislide {width:350px; height:250px; overflow:hidden; position:relative; }
