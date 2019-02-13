@@ -63,7 +63,10 @@ body{
   color: white;
 }
 
-
+img{
+  
+  display: block;
+}
 
   
   /* Main content */
@@ -81,6 +84,7 @@ body{
   .cell1{
     padding-left: 10%;
     padding-bottom: 5%;
+    font-size: 0%;
     
   }
 
@@ -88,6 +92,14 @@ body{
     padding-right: 0%;
     padding-bottom: 0%;
     
+  }
+
+  .cell3{
+
+  }
+
+  .cell4{
+
   }
 
 
@@ -127,7 +139,7 @@ body{
 
   }
 
-  img { vertical-align: bottom; }
+  
 
   .title{
     font-size: xx-large;
@@ -162,9 +174,6 @@ body{
     display: none;
   }
 
-  .game2row{
-    margin-bottom:50%;
-  }
 
   .game1row{
     height: 100px;
@@ -199,12 +208,12 @@ body{
     padding-left: 0px;
   }
   .cell1{
-    height: 500px;
+
     padding:0%;
   }
   .cell2{
     padding:0%;
-    height: 500px;
+    display: none;
   }
   .game{
     
