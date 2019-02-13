@@ -225,6 +225,10 @@ img{
     width: 20% ;
   }
 
+  body{
+    background-size: fill;
+  }
+
   .fling-minislide {width:350px; height:250px; overflow:hidden; position:relative; }
 }
 
