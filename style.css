@@ -237,6 +237,7 @@ img{
 
   .aboutmetable{
     height: 50%;
+    margin-bottom: 0%;
   }
 
   .fling-minislide {width:350px; height:250px; overflow:hidden; position:relative; }
