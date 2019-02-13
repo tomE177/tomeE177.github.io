@@ -235,6 +235,9 @@ img{
     display: none;
   }
 
+  .aboutmetable{
+    height: 50%;
+  }
 
   .fling-minislide {width:350px; height:250px; overflow:hidden; position:relative; }
 }
